@@ -1,8 +1,11 @@
+
 package hashing;
+
+import java.util.Collection;
 
 public class ChainingHashTable implements HashTable {
     
-    // YOUR CODE GOES HERE
+    
 
     private int hash(String key) {
         final int z = 33;
@@ -15,5 +18,20 @@ public class ChainingHashTable implements HashTable {
         }
         return Math.abs(code) % hashTable.length;
     }
+
+	@Override
+	public Student get(String key) {
+		
+	}
+
+	@Override
+	public Student put(String key, Student newValue) {
+		
+	}
+
+	@Override
+	public Collection<String> keySet() {
+		
+	}
 
 }
